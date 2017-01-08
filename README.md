@@ -9,7 +9,7 @@ The API from eBay will require keywords, ignored keywords (optional) and a campa
  var keywordsIgnored = ""
  var campaignid = 0;
 ```
-You will need jQuery, proxy.php and the script located in index.html. The index.html script appends to the tag 'forsale' in the html to display the feed. The provided RSS url in proxy.php is based on what will be generated from https://epn.ebay.com/tools/rss-generator in EPN and is heavily customizable featuring sorting, region and other advanced search options.
+You will need jQuery, proxy.php, ebay.js and the forsale tag located in index.html. The index.html script appends to the tag 'forsale' in the html to display the feed. The provided RSS url in proxy.php is based on what will be generated from https://epn.ebay.com/tools/rss-generator in EPN and is heavily customizable featuring sorting, region and other advanced search options.
 
 ## Local Testing
 In your terminal, run the following command to start a local php server:
